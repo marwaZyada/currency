@@ -37,7 +37,7 @@ calculate = () => {
 
 }
 handlExchange = () => {
-    calc.innerHTML = (x * txt.value).toFixed(2)
+    calc.innerHTML = (x * parseInt(txt.value)).toFixed(2)
 }
 
 
