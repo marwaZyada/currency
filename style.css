@@ -1,0 +1,23 @@
+    .container {
+        width: 400px;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        border: 1px solid black;
+        background-color: rgb(233, 223, 223);
+    }
+    
+    label {
+        display: block;
+    }
+    
+    select {
+        width: 100px;
+    }
+    
+    .select {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
